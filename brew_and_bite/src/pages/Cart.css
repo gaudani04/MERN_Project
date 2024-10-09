@@ -1,0 +1,36 @@
+/* src/Cart.css */
+.empty-cart-message {
+    font-size: 36px; /* Larger font size */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Space from the top */
+    color: #ffffff; /* White text color */
+    height: calc(100vh - 100px); /* Full height minus some space */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(135deg, #FFB74D, #B34726); /* Light orange to #B34726 gradient */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+  }
+  
+  /* Add a keyframe animation for fading in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      opacity: 1; /* End fully visible */
+    }
+  }
+  
+  /* Optional: Style for the table */
+  .table {
+    margin-top: 20px; /* Add margin to the top */
+    color: #ffffff; /* Change text color to white */
+  }
+  
+  .table th, .table td {
+    text-align: center; /* Center align text in table */
+  }
+  

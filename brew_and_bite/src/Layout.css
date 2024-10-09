@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+    background-color:white;
+    box-sizing: border-box;
+}
+.nav-link{
+    
+    color: white !important;
+}
+.navbar{
+    background-color: black;
+}
+.collapse.paddingLeft{
+    padding-left: 300px;
+}
+.carousel-width-height{
+    
+    height: 550px;
+    width: 90%;
+    
+}
+.card-home{
+font-family: cursive;
+}
+
+/*  */
+.carousel-item {
+    position: relative;
+}
+
+.carousel-width-height {
+    height: 100vh; /* Adjust height as necessary */
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Light transparent black background */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; 
+}
+
+.carousel-item:hover .overlay {
+    opacity: 1; 
+}
+
+.overlay h1 {
+    color: white;
+    font-size: 3rem; /* Adjust font size as needed */
+    text-align: center;
+}
+/* layout.js */
+.navbar {
+    background-color: black; /* Set the background color */
+    z-index: 1030; /* Ensure it stays above other content */
+}
+
+.navbar .nav-link {
+    transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.navbar .nav-link:hover {
+    color: #B34726; /* Change link color on hover */
+}
+
+
+
+

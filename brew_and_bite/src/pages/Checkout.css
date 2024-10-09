@@ -1,0 +1,46 @@
+/* src/pages/Checkout.css */
+.checkout-container {
+    padding: 20px;
+    background-color: #F3F4F6; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  h2, h3 {
+    color: #333; 
+  }
+  
+  table {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+  
+  th, td {
+    text-align: left; 
+  }
+  
+  .shipping-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shipping-form input {
+    margin: 5px 0; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+  }
+  
+  .btn {
+    background-color: #B34726; 
+    color: #fff;
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #A23421; 
+  }
+  
